@@ -18,11 +18,11 @@ class AutoForgetLost(plugins.Plugin):
         self._logger.info("AutoForgetLost plugin unloaded.")
 
     def on_ai_ready(self, agent):
-        self._logger.info("AI is ready, checking for lost clients.")
+        self._logger.info("Checking for lost clients.")
         self._remove_lost_clients(agent)
 
     def on_ai_step(self, agent, step):
-        self._logger.info("AI step, checking for lost clients.")
+        self._logger.info("Checking for lost clients.")
         self._remove_lost_clients(agent)
 
     def _remove_lost_clients(self, agent):

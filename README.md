@@ -4,7 +4,7 @@ For use when travling to fast to keep up with clients. Will remove clients that 
 
 # Add this to your config.toml:
 
-main.plugins.autoforgetlost.enabled = true
+main.plugins.auto_forget_lost.enabled = true
 
 # Add this amonst the other repository links in your config.toml:
 
